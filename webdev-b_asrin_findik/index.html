@@ -11,8 +11,8 @@
         <section>
             <header>
                 <ul>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Görseller</a></li>
+                    <li><a href="https://mail.google.com">Gmail</a></li>
+                    <li><a href="https://www.google.com.tr/imghp">Görseller</a></li>
                     <li><i href="#"><img src="Images/outline_apps_black_24dp.png"></i></li>
                     <li><button>Giriş Yap</button></p>
                 </ul>
@@ -20,17 +20,19 @@
             <div class="mainBlock">
                 <img src="Images/googlelogo_color_272x92dp.png">
                 <div class="searchBar">
-                    <input type="text" class="searchBox">
-                    <div class="searchIcons">
-                        <div><img src="Images/outline_search_black_24dp.png"></div>
-                        <div><img src="Images/outline_keyboard_black_24dp.png">
-                        <img src="Images/outline_mic_black_24dp.png"></div>
+                    <form action="https://google.com/search">
+                        <input type="text" name="q" class="searchBox">
+                        <div class="searchIcons">
+                            <div><img src="Images/outline_search_black_24dp.png"></div>
+                            <div><img src="Images/outline_keyboard_black_24dp.png">
+                            <img src="Images/outline_mic_black_24dp.png"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="searchButtons">
-                    <button>Google'da Ara</button>
-                    <button>Kendimi Şanslı Hissediyorum</button>
-                </div>
+                    <div class="searchButtons">
+                        <button name="btnK" type="submit">Google'da Ara</button>
+                        <button id="lucky" name="btnI" type="submit">Kendimi Şanslı Hissediyorum</button>
+                    </div>
+                </form>
                 <div class="languages">
                     <li>Google'ı kullanabileceğiniz diğer diller:</li>
                     <li><a href="#">English</a></li>
