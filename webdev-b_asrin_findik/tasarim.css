@@ -46,26 +46,14 @@ section header ul li a
     font-size: 13px;
 }
 
-section header ul li i
-{
-    cursor: pointer;
-    border: 1px solid transparent;
-}
-
 section header ul li a:hover
 {
     text-decoration: underline;
 }
 
-section header ul li i:hover
-{
-    border: 1px solid;
-    border-color: #7a7979;
-}
-
 section header ul li button
 {
-    background: #4584EF;
+    background: #1b3dfc;
     border: none;
     border-radius: 3px;
     outline: none;
@@ -74,6 +62,11 @@ section header ul li button
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+}
+
+section header ul li button:hover
+{
+    background: #4584EF;
 }
 
 .mainBlock
@@ -121,6 +114,18 @@ section header ul li button
     justify-content: space-between;
     align-items: center;
     pointer-events: none;
+}
+
+.keyboardBtn
+{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.micBtn
+{
+    cursor: pointer;
+    pointer-events: all;
 }
 
 .searchButtons
@@ -199,6 +204,46 @@ section header ul li button
     margin-left: 35px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.abtLBL:hover
+{
+    text-decoration: underline;
+}
+
+.adsLBL:hover
+{
+    text-decoration: underline;
+}
+
+.busLBL:hover
+{
+    text-decoration: underline;
+}
+
+.hswLBL:hover
+{
+    text-decoration: underline;
+}
+
+.carbon:hover
+{
+    text-decoration: underline;
+}
+
+.prvLBL:hover
+{
+    text-decoration: underline;
+}
+
+.trmLBL:hover
+{
+    text-decoration: underline;
+}
+
+.setLBL:hover
+{
+    text-decoration: underline;
 }
 
 .footerBlock2 div
